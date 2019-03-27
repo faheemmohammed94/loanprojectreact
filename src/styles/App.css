@@ -1,0 +1,52 @@
+html {
+    font-size: 19px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+    background-color:green; 
+  }
+  
+  p {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  small {
+    font-weight: lighter;
+    color: red;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 25px;
+    width: 10rem;
+    margin: 10vh auto;
+    box-shadow: 15px 20px 50px -25px;
+    width: 50%;
+    background: white;
+  
+  }
+  
+  .input-range__label--max {
+    display: none;
+  }
+  
+  .input-range__label--min {
+    display: none;
+  }
+  
+  .input-range__label-container {
+    left: -50%;
+    position: relative;
+    display: none;
+  }
+  
